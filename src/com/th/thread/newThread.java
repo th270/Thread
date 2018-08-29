@@ -12,9 +12,11 @@ public class newThread {
 
             @Override
             public void run() {
+
                 // 这里的this就是Thread 的对象
                 String name = this.getName();
                 System.out.println(this.getName());
+
             }
 
         }.start();
