@@ -4,7 +4,9 @@ package com.th.thread;
  * Created by Administrator on 2018/6/8.
  */
 public class TestReentrantLock {
+
     public static void main(String[] args) {
+
         Print3 p = new Print3();
         new Thread(new Runnable() {
             @Override
