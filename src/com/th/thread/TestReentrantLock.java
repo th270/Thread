@@ -8,7 +8,9 @@ public class TestReentrantLock {
     public static void main(String[] args) {
 
         Print3 p = new Print3();
+
         new Thread(new Runnable() {
+
             @Override
             public void run() {
                 while ( true ){
@@ -19,10 +21,12 @@ public class TestReentrantLock {
                     }
                 }
             }
+
         }).start();
 
 
         new Thread(new Runnable() {
+
             @Override
             public void run() {
                 while ( true ){
@@ -33,6 +37,7 @@ public class TestReentrantLock {
                     }
                 }
             }
+
         }).start();
 
 

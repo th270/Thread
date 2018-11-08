@@ -9,6 +9,10 @@ public class MyTask extends TimerTask {
 
     private String taskName ;
 
+    /**
+     * 我的任务
+     * @param taskName
+     */
     public MyTask(String taskName) {
 
         this.taskName = taskName;
